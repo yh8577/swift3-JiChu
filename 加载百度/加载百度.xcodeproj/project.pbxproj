@@ -196,7 +196,7 @@
 				TargetAttributes = {
 					A635ED621FD96EE600DAC2A6 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = ZML32S4D5M;
+						DevelopmentTeam = ZEGP83LMQ7;
 						ProvisioningStyle = Automatic;
 					};
 					A635ED761FD96EE600DAC2A6 = {
@@ -419,7 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZML32S4D5M;
+				DEVELOPMENT_TEAM = ZEGP83LMQ7;
 				INFOPLIST_FILE = "加载百度/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.----";
@@ -432,7 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZML32S4D5M;
+				DEVELOPMENT_TEAM = ZEGP83LMQ7;
 				INFOPLIST_FILE = "加载百度/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.----";
