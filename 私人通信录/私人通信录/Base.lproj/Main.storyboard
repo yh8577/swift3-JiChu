@@ -50,7 +50,12 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Root View Controller" id="nII-Dy-kCU">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="9Lu-zb-tOw"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="9Lu-zb-tOw">
+                            <connections>
+                                <action selector="listBtnClick:" destination="jac-eJ-dS1" id="5cQ-FF-8WC"/>
+                                <segue destination="opw-ca-mL3" kind="show" identifier="list1Deyail" id="Azi-4o-qeZ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -182,4 +187,7 @@
             <point key="canvasLocation" x="-818" y="-133"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Azi-4o-qeZ"/>
+    </inferredMetricsTieBreakers>
 </document>

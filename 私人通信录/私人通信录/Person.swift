@@ -13,4 +13,23 @@ class Person: NSObject {
     var name: String?
     var phone: String?
     var title: String?
+    
+    override init() {
+        
+        super.init()
+
+    }
+    
+    init(dict : [String : Any]) {
+        
+        super.init()
+        
+        setValuesForKeys(dict)
+    }
+    
+    override func setValue(_ value: Any?, forKey key: String) {
+        super.setValue(value, forKey: key)
+    }
+    
+    override func setValue(_ value: Any?, forUndefinedKey key: String) {}
 }

@@ -34,16 +34,27 @@ class DetailTableViewController: UITableViewController {
 
     @IBAction func btnClick(_ sender: Any) {
         
-        person?.name = nameText.text
-        person?.phone = phoneText.text
-        person?.title = titleText.text
+        guard let name = nameText.text,
+            let phone = phoneText.text,
+            let title = titleText.text else {
+            return
+        }
         
+        person = Person()
+        
+        person?.name = name
+        person?.phone = phone
+        person?.title = title
+    
         // 执行闭包回调
         completionCallBack?()
         
         navigationController?.popViewController(animated: true)
         
     }
-     
+    
+    deinit {
+        print("销毁")
+    }
 
 }

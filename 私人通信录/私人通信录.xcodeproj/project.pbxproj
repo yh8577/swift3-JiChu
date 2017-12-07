@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6300B961FD9943E00EB4D89 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6300B951FD9943E00EB4D89 /* ListTableViewController.swift */; };
-		A6300B981FD9945300EB4D89 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6300B971FD9945300EB4D89 /* DetailTableViewController.swift */; };
 		A6300B9A1FD9959C00EB4D89 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6300B991FD9959C00EB4D89 /* Person.swift */; };
+		A6300B9D1FD9A6BB00EB4D89 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6300B9B1FD9A6BB00EB4D89 /* DetailTableViewController.swift */; };
+		A6300B9E1FD9A6BB00EB4D89 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6300B9C1FD9A6BB00EB4D89 /* ListTableViewController.swift */; };
 		A64589B01FD82AD10030B7BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64589AF1FD82AD10030B7BD /* AppDelegate.swift */; };
 		A64589B51FD82AD10030B7BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64589B31FD82AD10030B7BD /* Main.storyboard */; };
 		A64589B71FD82AD10030B7BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64589B61FD82AD10030B7BD /* Assets.xcassets */; };
@@ -36,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A6300B951FD9943E00EB4D89 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListTableViewController.swift; path = ../ListTableViewController.swift; sourceTree = "<group>"; };
-		A6300B971FD9945300EB4D89 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailTableViewController.swift; path = ../DetailTableViewController.swift; sourceTree = "<group>"; };
 		A6300B991FD9959C00EB4D89 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A6300B9B1FD9A6BB00EB4D89 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		A6300B9C1FD9A6BB00EB4D89 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		A64589AC1FD82AD10030B7BD /* 私人通信录.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "私人通信录.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64589AF1FD82AD10030B7BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A64589B41FD82AD10030B7BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,11 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				A64589AF1FD82AD10030B7BD /* AppDelegate.swift */,
-				A64589B31FD82AD10030B7BD /* Main.storyboard */,
-				A6300B971FD9945300EB4D89 /* DetailTableViewController.swift */,
-				A6300B951FD9943E00EB4D89 /* ListTableViewController.swift */,
 				A6300B991FD9959C00EB4D89 /* Person.swift */,
+				A6300B9B1FD9A6BB00EB4D89 /* DetailTableViewController.swift */,
+				A6300B9C1FD9A6BB00EB4D89 /* ListTableViewController.swift */,
 				A64589B61FD82AD10030B7BD /* Assets.xcassets */,
+				A64589B31FD82AD10030B7BD /* Main.storyboard */,
 				A64589B81FD82AD10030B7BD /* LaunchScreen.storyboard */,
 				A64589BB1FD82AD10030B7BD /* Info.plist */,
 			);
@@ -265,10 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6300B981FD9945300EB4D89 /* DetailTableViewController.swift in Sources */,
+				A6300B9D1FD9A6BB00EB4D89 /* DetailTableViewController.swift in Sources */,
 				A64589B01FD82AD10030B7BD /* AppDelegate.swift in Sources */,
 				A6300B9A1FD9959C00EB4D89 /* Person.swift in Sources */,
-				A6300B961FD9943E00EB4D89 /* ListTableViewController.swift in Sources */,
+				A6300B9E1FD9A6BB00EB4D89 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

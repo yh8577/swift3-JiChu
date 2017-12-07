@@ -17,16 +17,12 @@ class ListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        weak var weakSelf = self
-        
         loadData { (list) in
-//            print(list)
             // 拼接数组
-            weakSelf?.personList += list
-            
+            self.personList += list
             
             // 刷新表格
-            weakSelf?.tableView.reloadData()
+            self.tableView.reloadData()
         }
     }
 
@@ -77,10 +73,27 @@ class ListTableViewController: UITableViewController {
                 
                 self.tableView.reloadRows(at: [indexPath], with: .automatic)
             }
+        } else {
+            
+            vc.completionCallBack = { [weak vc] in
+  
+                guard let p = vc?.person else {
+                    return
+                }
+ 
+                self.personList.insert(p, at: 0)
+                
+                self.tableView.reloadData()
+            }
         }
         
     }
 
+    @IBAction func listBtnClick(_ sender: Any) {
+        
+        performSegue(withIdentifier: "list1Deyail", sender: nil)
+    }
+    
  
     // 模拟异步,利用闭包回调
     private func loadData(completion: @escaping (_ list: [Person])->()) ->() {
@@ -98,11 +111,16 @@ class ListTableViewController: UITableViewController {
                 arrayM.append(p)
             }
             // 主线程回调
-            DispatchQueue.main.async(execute: { 
-                
+            DispatchQueue.main.async(execute: {
                 completion(arrayM)
             })
         }
     }
+    
+    deinit {
+        print("销毁")
+    }
+    
+    
 
 }
