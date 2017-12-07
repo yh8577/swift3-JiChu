@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A602D3EF1FD970EF00DBBCCD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A602D3EE1FD970EF00DBBCCD /* Person.swift */; };
+		A635ED671FD96EE600DAC2A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A635ED661FD96EE600DAC2A6 /* AppDelegate.swift */; };
+		A635ED691FD96EE600DAC2A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A635ED681FD96EE600DAC2A6 /* ViewController.swift */; };
+		A635ED6C1FD96EE600DAC2A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A635ED6A1FD96EE600DAC2A6 /* Main.storyboard */; };
+		A635ED6E1FD96EE600DAC2A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A635ED6D1FD96EE600DAC2A6 /* Assets.xcassets */; };
+		A635ED711FD96EE600DAC2A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A635ED6F1FD96EE600DAC2A6 /* LaunchScreen.storyboard */; };
+		A635ED7C1FD96EE600DAC2A6 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A635ED7B1FD96EE600DAC2A6 /* ____Tests.swift */; };
+		A635ED871FD96EE600DAC2A6 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A635ED861FD96EE600DAC2A6 /* ____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A635ED781FD96EE600DAC2A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A635ED5B1FD96EE600DAC2A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A635ED621FD96EE600DAC2A6;
+			remoteInfo = "加载百度";
+		};
+		A635ED831FD96EE600DAC2A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A635ED5B1FD96EE600DAC2A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A635ED621FD96EE600DAC2A6;
+			remoteInfo = "加载百度";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A602D3EE1FD970EF00DBBCCD /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A635ED631FD96EE600DAC2A6 /* 加载百度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "加载百度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A635ED661FD96EE600DAC2A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A635ED681FD96EE600DAC2A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A635ED6B1FD96EE600DAC2A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A635ED6D1FD96EE600DAC2A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A635ED701FD96EE600DAC2A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A635ED721FD96EE600DAC2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A635ED771FD96EE600DAC2A6 /* 加载百度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加载百度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A635ED7B1FD96EE600DAC2A6 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		A635ED7D1FD96EE600DAC2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A635ED821FD96EE600DAC2A6 /* 加载百度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加载百度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A635ED861FD96EE600DAC2A6 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		A635ED881FD96EE600DAC2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A635ED601FD96EE600DAC2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A635ED741FD96EE600DAC2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A635ED7F1FD96EE600DAC2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A635ED5A1FD96EE600DAC2A6 = {
+			isa = PBXGroup;
+			children = (
+				A635ED651FD96EE600DAC2A6 /* 加载百度 */,
+				A635ED7A1FD96EE600DAC2A6 /* 加载百度Tests */,
+				A635ED851FD96EE600DAC2A6 /* 加载百度UITests */,
+				A635ED641FD96EE600DAC2A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A635ED641FD96EE600DAC2A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A635ED631FD96EE600DAC2A6 /* 加载百度.app */,
+				A635ED771FD96EE600DAC2A6 /* 加载百度Tests.xctest */,
+				A635ED821FD96EE600DAC2A6 /* 加载百度UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A635ED651FD96EE600DAC2A6 /* 加载百度 */ = {
+			isa = PBXGroup;
+			children = (
+				A635ED661FD96EE600DAC2A6 /* AppDelegate.swift */,
+				A635ED681FD96EE600DAC2A6 /* ViewController.swift */,
+				A602D3EE1FD970EF00DBBCCD /* Person.swift */,
+				A635ED6A1FD96EE600DAC2A6 /* Main.storyboard */,
+				A635ED6D1FD96EE600DAC2A6 /* Assets.xcassets */,
+				A635ED6F1FD96EE600DAC2A6 /* LaunchScreen.storyboard */,
+				A635ED721FD96EE600DAC2A6 /* Info.plist */,
+			);
+			path = "加载百度";
+			sourceTree = "<group>";
+		};
+		A635ED7A1FD96EE600DAC2A6 /* 加载百度Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A635ED7B1FD96EE600DAC2A6 /* ____Tests.swift */,
+				A635ED7D1FD96EE600DAC2A6 /* Info.plist */,
+			);
+			path = "加载百度Tests";
+			sourceTree = "<group>";
+		};
+		A635ED851FD96EE600DAC2A6 /* 加载百度UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A635ED861FD96EE600DAC2A6 /* ____UITests.swift */,
+				A635ED881FD96EE600DAC2A6 /* Info.plist */,
+			);
+			path = "加载百度UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A635ED621FD96EE600DAC2A6 /* 加载百度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A635ED8B1FD96EE600DAC2A6 /* Build configuration list for PBXNativeTarget "加载百度" */;
+			buildPhases = (
+				A635ED5F1FD96EE600DAC2A6 /* Sources */,
+				A635ED601FD96EE600DAC2A6 /* Frameworks */,
+				A635ED611FD96EE600DAC2A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "加载百度";
+			productName = "加载百度";
+			productReference = A635ED631FD96EE600DAC2A6 /* 加载百度.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A635ED761FD96EE600DAC2A6 /* 加载百度Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A635ED8E1FD96EE600DAC2A6 /* Build configuration list for PBXNativeTarget "加载百度Tests" */;
+			buildPhases = (
+				A635ED731FD96EE600DAC2A6 /* Sources */,
+				A635ED741FD96EE600DAC2A6 /* Frameworks */,
+				A635ED751FD96EE600DAC2A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A635ED791FD96EE600DAC2A6 /* PBXTargetDependency */,
+			);
+			name = "加载百度Tests";
+			productName = "加载百度Tests";
+			productReference = A635ED771FD96EE600DAC2A6 /* 加载百度Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A635ED811FD96EE600DAC2A6 /* 加载百度UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A635ED911FD96EE600DAC2A6 /* Build configuration list for PBXNativeTarget "加载百度UITests" */;
+			buildPhases = (
+				A635ED7E1FD96EE600DAC2A6 /* Sources */,
+				A635ED7F1FD96EE600DAC2A6 /* Frameworks */,
+				A635ED801FD96EE600DAC2A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A635ED841FD96EE600DAC2A6 /* PBXTargetDependency */,
+			);
+			name = "加载百度UITests";
+			productName = "加载百度UITests";
+			productReference = A635ED821FD96EE600DAC2A6 /* 加载百度UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A635ED5B1FD96EE600DAC2A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jyh;
+				TargetAttributes = {
+					A635ED621FD96EE600DAC2A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZML32S4D5M;
+						ProvisioningStyle = Automatic;
+					};
+					A635ED761FD96EE600DAC2A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZML32S4D5M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A635ED621FD96EE600DAC2A6;
+					};
+					A635ED811FD96EE600DAC2A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZML32S4D5M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A635ED621FD96EE600DAC2A6;
+					};
+				};
+			};
+			buildConfigurationList = A635ED5E1FD96EE600DAC2A6 /* Build configuration list for PBXProject "加载百度" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A635ED5A1FD96EE600DAC2A6;
+			productRefGroup = A635ED641FD96EE600DAC2A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A635ED621FD96EE600DAC2A6 /* 加载百度 */,
+				A635ED761FD96EE600DAC2A6 /* 加载百度Tests */,
+				A635ED811FD96EE600DAC2A6 /* 加载百度UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A635ED611FD96EE600DAC2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A635ED711FD96EE600DAC2A6 /* LaunchScreen.storyboard in Resources */,
+				A635ED6E1FD96EE600DAC2A6 /* Assets.xcassets in Resources */,
+				A635ED6C1FD96EE600DAC2A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A635ED751FD96EE600DAC2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A635ED801FD96EE600DAC2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A635ED5F1FD96EE600DAC2A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A602D3EF1FD970EF00DBBCCD /* Person.swift in Sources */,
+				A635ED691FD96EE600DAC2A6 /* ViewController.swift in Sources */,
+				A635ED671FD96EE600DAC2A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A635ED731FD96EE600DAC2A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A635ED7C1FD96EE600DAC2A6 /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A635ED7E1FD96EE600DAC2A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A635ED871FD96EE600DAC2A6 /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A635ED791FD96EE600DAC2A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A635ED621FD96EE600DAC2A6 /* 加载百度 */;
+			targetProxy = A635ED781FD96EE600DAC2A6 /* PBXContainerItemProxy */;
+		};
+		A635ED841FD96EE600DAC2A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A635ED621FD96EE600DAC2A6 /* 加载百度 */;
+			targetProxy = A635ED831FD96EE600DAC2A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A635ED6A1FD96EE600DAC2A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A635ED6B1FD96EE600DAC2A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A635ED6F1FD96EE600DAC2A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A635ED701FD96EE600DAC2A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A635ED891FD96EE600DAC2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A635ED8A1FD96EE600DAC2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A635ED8C1FD96EE600DAC2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "加载百度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A635ED8D1FD96EE600DAC2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "加载百度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A635ED8F1FD96EE600DAC2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "加载百度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/加载百度.app/加载百度";
+			};
+			name = Debug;
+		};
+		A635ED901FD96EE600DAC2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "加载百度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/加载百度.app/加载百度";
+			};
+			name = Release;
+		};
+		A635ED921FD96EE600DAC2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "加载百度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "加载百度";
+			};
+			name = Debug;
+		};
+		A635ED931FD96EE600DAC2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "加载百度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "加载百度";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A635ED5E1FD96EE600DAC2A6 /* Build configuration list for PBXProject "加载百度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A635ED891FD96EE600DAC2A6 /* Debug */,
+				A635ED8A1FD96EE600DAC2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A635ED8B1FD96EE600DAC2A6 /* Build configuration list for PBXNativeTarget "加载百度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A635ED8C1FD96EE600DAC2A6 /* Debug */,
+				A635ED8D1FD96EE600DAC2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A635ED8E1FD96EE600DAC2A6 /* Build configuration list for PBXNativeTarget "加载百度Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A635ED8F1FD96EE600DAC2A6 /* Debug */,
+				A635ED901FD96EE600DAC2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A635ED911FD96EE600DAC2A6 /* Build configuration list for PBXNativeTarget "加载百度UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A635ED921FD96EE600DAC2A6 /* Debug */,
+				A635ED931FD96EE600DAC2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A635ED5B1FD96EE600DAC2A6 /* Project object */;
+}
