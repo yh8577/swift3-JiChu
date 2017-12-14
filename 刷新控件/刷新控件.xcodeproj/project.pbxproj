@@ -10,6 +10,9 @@
 		A652F5C91FE29DF000CCBD92 /* HGRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A652F5C61FE29DF000CCBD92 /* HGRefreshControl.swift */; };
 		A652F5CA1FE29DF000CCBD92 /* HGRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A652F5C71FE29DF000CCBD92 /* HGRefreshView.swift */; };
 		A652F5CB1FE29DF000CCBD92 /* HGRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A652F5C81FE29DF000CCBD92 /* HGRefreshView.xib */; };
+		A652F5CD1FE29F3800CCBD92 /* HGHumanRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A652F5CC1FE29F3800CCBD92 /* HGHumanRefreshView.xib */; };
+		A652F5D11FE2A16100CCBD92 /* HGMTRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A652F5D01FE2A16100CCBD92 /* HGMTRefreshView.xib */; };
+		A652F5D31FE2A28700CCBD92 /* HGMTRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A652F5D21FE2A28700CCBD92 /* HGMTRefreshView.swift */; };
 		A65E89E71FE192EB007B2948 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E89E61FE192EB007B2948 /* AppDelegate.swift */; };
 		A65E89E91FE192EB007B2948 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E89E81FE192EB007B2948 /* ViewController.swift */; };
 		A65E89EC1FE192EB007B2948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65E89EA1FE192EB007B2948 /* Main.storyboard */; };
@@ -40,6 +43,9 @@
 		A652F5C61FE29DF000CCBD92 /* HGRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGRefreshControl.swift; sourceTree = "<group>"; };
 		A652F5C71FE29DF000CCBD92 /* HGRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGRefreshView.swift; sourceTree = "<group>"; };
 		A652F5C81FE29DF000CCBD92 /* HGRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGRefreshView.xib; sourceTree = "<group>"; };
+		A652F5CC1FE29F3800CCBD92 /* HGHumanRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGHumanRefreshView.xib; sourceTree = "<group>"; };
+		A652F5D01FE2A16100CCBD92 /* HGMTRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGMTRefreshView.xib; sourceTree = "<group>"; };
+		A652F5D21FE2A28700CCBD92 /* HGMTRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGMTRefreshView.swift; sourceTree = "<group>"; };
 		A65E89E31FE192EB007B2948 /* 刷新控件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "刷新控件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65E89E61FE192EB007B2948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A65E89E81FE192EB007B2948 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,7 +91,10 @@
 			children = (
 				A652F5C61FE29DF000CCBD92 /* HGRefreshControl.swift */,
 				A652F5C71FE29DF000CCBD92 /* HGRefreshView.swift */,
+				A652F5D21FE2A28700CCBD92 /* HGMTRefreshView.swift */,
 				A652F5C81FE29DF000CCBD92 /* HGRefreshView.xib */,
+				A652F5CC1FE29F3800CCBD92 /* HGHumanRefreshView.xib */,
+				A652F5D01FE2A16100CCBD92 /* HGMTRefreshView.xib */,
 			);
 			path = HGRefreshControl;
 			sourceTree = "<group>";
@@ -256,6 +265,8 @@
 				A65E89EE1FE192EB007B2948 /* Assets.xcassets in Resources */,
 				A65E89EC1FE192EB007B2948 /* Main.storyboard in Resources */,
 				A652F5CB1FE29DF000CCBD92 /* HGRefreshView.xib in Resources */,
+				A652F5CD1FE29F3800CCBD92 /* HGHumanRefreshView.xib in Resources */,
+				A652F5D11FE2A16100CCBD92 /* HGMTRefreshView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A652F5C91FE29DF000CCBD92 /* HGRefreshControl.swift in Sources */,
+				A652F5D31FE2A28700CCBD92 /* HGMTRefreshView.swift in Sources */,
 				A65E89E91FE192EB007B2948 /* ViewController.swift in Sources */,
 				A65E89E71FE192EB007B2948 /* AppDelegate.swift in Sources */,
 				A652F5CA1FE29DF000CCBD92 /* HGRefreshView.swift in Sources */,

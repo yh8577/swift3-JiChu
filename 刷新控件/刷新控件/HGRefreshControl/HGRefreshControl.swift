@@ -21,7 +21,7 @@ enum HGRefreshState {
 }
 
 // 刷新状态切换的临界点
-private let HGRefreshOffset: CGFloat = 60
+private let HGRefreshOffset: CGFloat = 130
 
 class HGRefreshControl: UIControl {
 
@@ -81,6 +81,9 @@ class HGRefreshControl: UIControl {
         // 可以根据高度设置刷新控件的 frame
         self.frame = CGRect(x: 0, y: -height, width: sv.bounds.width, height: height)
         
+        // 传递父视图高度
+        refreshView.parentViewHeight = height
+        
         // 判断临界点, 只需要判断一次就可以
 
         if sv.isDragging {
@@ -127,6 +130,10 @@ class HGRefreshControl: UIControl {
         inset.top += HGRefreshOffset
         
         sv.contentInset = inset
+        
+        // 设置刷新父视图高度
+        
+        refreshView.parentViewHeight = HGRefreshOffset
         
     }
     
