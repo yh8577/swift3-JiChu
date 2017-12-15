@@ -17,6 +17,33 @@ class HGEmoticonManager {
     // 构造函数,锁住单例
     private init() {
         
+        loadPackages()
     }
+    
+}
+
+
+fileprivate extension HGEmoticonManager {
+    
+    func loadPackages() {
+        
+        guard let path = Bundle.main.path(forResource: "HMEmoticon.bundle", ofType: nil),
+              let bunole = Bundle(path: path),
+              let plistPath = bunole.path(forResource: "emoticons.plist", ofType: nil),
+              let array = NSArray(contentsOfFile: plistPath) as? [[String: String]]
+            else {
+                
+            return
+        }
+        
+        
+        
+        
+        
+        
+        
+        print(array)
+    }
+    
     
 }

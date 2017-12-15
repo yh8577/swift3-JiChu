@@ -14,8 +14,8 @@
 		A6216DC11FE3D8DC003D3C37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6216DBF1FE3D8DC003D3C37 /* LaunchScreen.storyboard */; };
 		A6216DCC1FE3D8DC003D3C37 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216DCB1FE3D8DC003D3C37 /* _____Tests.swift */; };
 		A6216DD71FE3D8DC003D3C37 /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216DD61FE3D8DC003D3C37 /* _____UITests.swift */; };
-		A6216DED1FE3DC69003D3C37 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6216DEC1FE3DC69003D3C37 /* Emoticons.bundle */; };
 		A6216DEF1FE3DDED003D3C37 /* HGEmoticonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216DEE1FE3DDED003D3C37 /* HGEmoticonManager.swift */; };
+		A6216DF11FE3E242003D3C37 /* HMEmoticon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6216DF01FE3E242003D3C37 /* HMEmoticon.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		A6216DD21FE3D8DC003D3C37 /* 表情包数据UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "表情包数据UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6216DD61FE3D8DC003D3C37 /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
 		A6216DD81FE3D8DC003D3C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6216DEC1FE3DC69003D3C37 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
 		A6216DEE1FE3DDED003D3C37 /* HGEmoticonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGEmoticonManager.swift; sourceTree = "<group>"; };
+		A6216DF01FE3E242003D3C37 /* HMEmoticon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HMEmoticon.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +133,7 @@
 		A6216DEB1FE3DC69003D3C37 /* EmojiIcon */ = {
 			isa = PBXGroup;
 			children = (
-				A6216DEC1FE3DC69003D3C37 /* Emoticons.bundle */,
+				A6216DF01FE3E242003D3C37 /* HMEmoticon.bundle */,
 				A6216DEE1FE3DDED003D3C37 /* HGEmoticonManager.swift */,
 			);
 			path = EmojiIcon;
@@ -249,8 +249,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6216DF11FE3E242003D3C37 /* HMEmoticon.bundle in Resources */,
 				A6216DC11FE3D8DC003D3C37 /* LaunchScreen.storyboard in Resources */,
-				A6216DED1FE3DC69003D3C37 /* Emoticons.bundle in Resources */,
 				A6216DBE1FE3D8DC003D3C37 /* Assets.xcassets in Resources */,
 				A6216DBC1FE3D8DC003D3C37 /* Main.storyboard in Resources */,
 			);
@@ -530,6 +530,7 @@
 				A6216DDD1FE3D8DC003D3C37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6216DDE1FE3D8DC003D3C37 /* Build configuration list for PBXNativeTarget "表情包数据Tests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +539,7 @@
 				A6216DE01FE3D8DC003D3C37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6216DE11FE3D8DC003D3C37 /* Build configuration list for PBXNativeTarget "表情包数据UITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +548,7 @@
 				A6216DE31FE3D8DC003D3C37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
