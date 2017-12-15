@@ -1,0 +1,6 @@
+target '表情包数据' do
+  use_frameworks!
+
+pod "YYModel"
+
+end

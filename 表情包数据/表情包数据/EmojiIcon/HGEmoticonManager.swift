@@ -38,10 +38,6 @@ fileprivate extension HGEmoticonManager {
         
         
         
-        
-        
-        
-        
         print(array)
     }
     
