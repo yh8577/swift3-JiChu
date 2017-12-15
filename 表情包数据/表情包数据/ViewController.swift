@@ -26,8 +26,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        let emoji = HGEmoticonManager.shared
+        let emoti = HGEmoticonManager.shared
         
+        print(emoti.package)
     }
 
     override func didReceiveMemoryWarning() {
