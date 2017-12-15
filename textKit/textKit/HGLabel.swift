@@ -13,10 +13,20 @@ import UIKit
  1.使用 TextKit 接管 Label 的底层实现 -- 绘制文本 textStorage 的文本内容
  2.使用正则表达式过滤 URL
  3.交互
+ 提示
+    在 IOS7 之前要实现类似的效果需要 CodeText 使用起来异常的繁琐
+    YYmodel 的作者开发一个框架 YYText, 增加建立了一套渲染系统
 */
 class HGLabel: UILabel {
     
+    // MARK: - 重写属性
+    override var text: String? {
+        didSet {
+            prepareTextContent()
+        }
+    }
     
+    // MARK: - 构造函数
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -40,14 +50,12 @@ class HGLabel: UILabel {
         let idx = layoutManager.glyphIndex(for: location, in: textContainer)
         
         // 判断 idx 是否在 URL 范围中,如果在就高亮
-        print("点击我了: \(idx)")
-        
         for r in urlRanges ?? [] {
             
             if NSLocationInRange(idx, r) {
                 print("高亮")
                 // 修改文本的字体属性
-                textStorage.addAttributes([NSForegroundColorAttributeName: UIColor.orange], range: r)
+                textStorage.addAttributes([NSForegroundColorAttributeName: UIColor.blue], range: r)
                 
                 // 如果需要重绘,需要调用  setNeedsDisplay() 函数
                 setNeedsDisplay()
@@ -106,7 +114,7 @@ extension HGLabel {
     }
     
     // 3. 准备文本内容
-    private func prepareTextContent() {
+    fileprivate func prepareTextContent() {
         
         if let attributedText = attributedText {
              textStorage.setAttributedString(attributedText)
@@ -120,7 +128,7 @@ extension HGLabel {
             
             textStorage.addAttributes(
                 [
-                    NSForegroundColorAttributeName: UIColor.blue,
+                    NSForegroundColorAttributeName: UIColor.red,
                     NSBackgroundColorAttributeName: UIColor.lightGray
                 ], range: r)
         }
