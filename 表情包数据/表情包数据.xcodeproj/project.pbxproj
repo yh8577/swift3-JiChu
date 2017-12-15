@@ -15,8 +15,10 @@
 		A6216DC11FE3D8DC003D3C37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6216DBF1FE3D8DC003D3C37 /* LaunchScreen.storyboard */; };
 		A6216DCC1FE3D8DC003D3C37 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216DCB1FE3D8DC003D3C37 /* _____Tests.swift */; };
 		A6216DD71FE3D8DC003D3C37 /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216DD61FE3D8DC003D3C37 /* _____UITests.swift */; };
-		A6216DEF1FE3DDED003D3C37 /* HGEmoticonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216DEE1FE3DDED003D3C37 /* HGEmoticonManager.swift */; };
-		A6216DF11FE3E242003D3C37 /* HMEmoticon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6216DF01FE3E242003D3C37 /* HMEmoticon.bundle */; };
+		A6216DFD1FE3E854003D3C37 /* HGEmoticonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216DF81FE3E854003D3C37 /* HGEmoticonManager.swift */; };
+		A6216DFE1FE3E854003D3C37 /* HMEmoticon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6216DF91FE3E854003D3C37 /* HMEmoticon.bundle */; };
+		A6216DFF1FE3E854003D3C37 /* HGEmoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216DFB1FE3E854003D3C37 /* HGEmoticon.swift */; };
+		A6216E001FE3E854003D3C37 /* HGEmoticonPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216DFC1FE3E854003D3C37 /* HGEmoticonPackage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		106D021270F49B4316C87331 /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods______.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		106D021270F49B4316C87331 /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F24A6442944FCE579D20963 /* Pods-表情包数据.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-表情包数据.release.xcconfig"; path = "Pods/Target Support Files/Pods-表情包数据/Pods-表情包数据.release.xcconfig"; sourceTree = "<group>"; };
 		A6216DB31FE3D8DC003D3C37 /* 表情包数据.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "表情包数据.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6216DB61FE3D8DC003D3C37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,13 +49,15 @@
 		A6216DC01FE3D8DC003D3C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6216DC21FE3D8DC003D3C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6216DC71FE3D8DC003D3C37 /* 表情包数据Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "表情包数据Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6216DCB1FE3D8DC003D3C37 /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _____Tests.swift; sourceTree = "<group>"; };
+		A6216DCB1FE3D8DC003D3C37 /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Tests.swift"; sourceTree = "<group>"; };
 		A6216DCD1FE3D8DC003D3C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6216DD21FE3D8DC003D3C37 /* 表情包数据UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "表情包数据UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6216DD61FE3D8DC003D3C37 /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _____UITests.swift; sourceTree = "<group>"; };
+		A6216DD61FE3D8DC003D3C37 /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
 		A6216DD81FE3D8DC003D3C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6216DEE1FE3DDED003D3C37 /* HGEmoticonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGEmoticonManager.swift; sourceTree = "<group>"; };
-		A6216DF01FE3E242003D3C37 /* HMEmoticon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HMEmoticon.bundle; sourceTree = "<group>"; };
+		A6216DF81FE3E854003D3C37 /* HGEmoticonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGEmoticonManager.swift; sourceTree = "<group>"; };
+		A6216DF91FE3E854003D3C37 /* HMEmoticon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HMEmoticon.bundle; sourceTree = "<group>"; };
+		A6216DFB1FE3E854003D3C37 /* HGEmoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGEmoticon.swift; sourceTree = "<group>"; };
+		A6216DFC1FE3E854003D3C37 /* HGEmoticonPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGEmoticonPackage.swift; sourceTree = "<group>"; };
 		C17FD9B2B4D63887852FC749 /* Pods-表情包数据.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-表情包数据.debug.xcconfig"; path = "Pods/Target Support Files/Pods-表情包数据/Pods-表情包数据.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,7 +120,7 @@
 		A6216DB51FE3D8DC003D3C37 /* 表情包数据 */ = {
 			isa = PBXGroup;
 			children = (
-				A6216DEB1FE3DC69003D3C37 /* EmojiIcon */,
+				A6216DF71FE3E854003D3C37 /* Emoticon */,
 				A6216DB61FE3D8DC003D3C37 /* AppDelegate.swift */,
 				A6216DB81FE3D8DC003D3C37 /* ViewController.swift */,
 				A6216DBA1FE3D8DC003D3C37 /* Main.storyboard */,
@@ -145,13 +149,23 @@
 			path = "表情包数据UITests";
 			sourceTree = "<group>";
 		};
-		A6216DEB1FE3DC69003D3C37 /* EmojiIcon */ = {
+		A6216DF71FE3E854003D3C37 /* Emoticon */ = {
 			isa = PBXGroup;
 			children = (
-				A6216DF01FE3E242003D3C37 /* HMEmoticon.bundle */,
-				A6216DEE1FE3DDED003D3C37 /* HGEmoticonManager.swift */,
+				A6216DF81FE3E854003D3C37 /* HGEmoticonManager.swift */,
+				A6216DF91FE3E854003D3C37 /* HMEmoticon.bundle */,
+				A6216DFA1FE3E854003D3C37 /* Model */,
 			);
-			path = EmojiIcon;
+			path = Emoticon;
+			sourceTree = "<group>";
+		};
+		A6216DFA1FE3E854003D3C37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6216DFB1FE3E854003D3C37 /* HGEmoticon.swift */,
+				A6216DFC1FE3E854003D3C37 /* HGEmoticonPackage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D70200B4A2A66565021542D4 /* Pods */ = {
@@ -276,7 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6216DF11FE3E242003D3C37 /* HMEmoticon.bundle in Resources */,
+				A6216DFE1FE3E854003D3C37 /* HMEmoticon.bundle in Resources */,
 				A6216DC11FE3D8DC003D3C37 /* LaunchScreen.storyboard in Resources */,
 				A6216DBE1FE3D8DC003D3C37 /* Assets.xcassets in Resources */,
 				A6216DBC1FE3D8DC003D3C37 /* Main.storyboard in Resources */,
@@ -358,9 +372,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6216DFF1FE3E854003D3C37 /* HGEmoticon.swift in Sources */,
+				A6216E001FE3E854003D3C37 /* HGEmoticonPackage.swift in Sources */,
 				A6216DB91FE3D8DC003D3C37 /* ViewController.swift in Sources */,
 				A6216DB71FE3D8DC003D3C37 /* AppDelegate.swift in Sources */,
-				A6216DEF1FE3DDED003D3C37 /* HGEmoticonManager.swift in Sources */,
+				A6216DFD1FE3E854003D3C37 /* HGEmoticonManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
