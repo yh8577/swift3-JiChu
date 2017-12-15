@@ -29,6 +29,36 @@ class HGLabel: UILabel {
         prepareTextSystem()
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        // 获取用户点击的位置
+        guard let location = touches.first?.location(in: self) else {
+            return
+        }
+        
+        // 获取但父亲点击中字符的索引
+        let idx = layoutManager.glyphIndex(for: location, in: textContainer)
+        
+        // 判断 idx 是否在 URL 范围中,如果在就高亮
+        print("点击我了: \(idx)")
+        
+        for r in urlRanges ?? [] {
+            
+            if NSLocationInRange(idx, r) {
+                print("高亮")
+                // 修改文本的字体属性
+                textStorage.addAttributes([NSForegroundColorAttributeName: UIColor.orange], range: r)
+                
+                // 如果需要重绘,需要调用  setNeedsDisplay() 函数
+                setNeedsDisplay()
+            } else {
+                print("没有电到")
+            }
+        }
+        
+        
+    }
+    
     // 绘制文本
     override func drawText(in rect: CGRect) {
         
@@ -63,6 +93,8 @@ class HGLabel: UILabel {
 extension HGLabel {
     
     fileprivate func prepareTextSystem() {
+        
+        isUserInteractionEnabled = true
         
         // 1. 准备文本内容
         prepareTextContent()
