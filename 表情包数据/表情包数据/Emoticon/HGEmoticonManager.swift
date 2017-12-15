@@ -37,10 +37,28 @@ extension HGEmoticonManager {
         // OC 中过滤数组使用[谓词]
         // swift 中更简单
         for p in package {
+            
                 // 在表情数组中过滤 string
-            let result = p.emoticons.filter({ (em) -> Bool in
-                return em.chs == string
-            })
+            
+            // 方法1
+//            let result = p.emoticons.filter({ (em) -> Bool in
+//                return em.chs == string
+//            })
+            
+            // 方法2 尾随闭包
+//            let result = p.emoticons.filter() { (em) -> Bool in
+//                return em.chs == string
+//            }
+            // 方法3 如果闭包中只有一句,并且是返回
+            // 闭包格式定义可以省略,使用$0-$1...依次替代原有参数
+//            let result = p.emoticons.filter() {
+//                return $0.chs == string
+//            }
+            
+            // 方法4 如果闭包中只有一句,并且是返回
+            // 闭包格式定义可以省略,使用$0-$1...依次替代原有参数
+            // return 也可以省略
+            let result = p.emoticons.filter() { $0.chs == string }
             
             // 判断结果数组的数量
             if result.count == 1 {

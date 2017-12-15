@@ -32,11 +32,9 @@ class ViewController: UIViewController {
 //        print(emoti.package.last?.emoticons.first)
         
         
-        print(emoti.findEmoticon(string: "[爱你]"))
+        print(emoti.findEmoticon(string: "[笑哈哈]"))
         
-        
-        
-    
+
     }
 
     override func didReceiveMemoryWarning() {
