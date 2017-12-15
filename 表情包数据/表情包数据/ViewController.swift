@@ -28,7 +28,9 @@ class ViewController: UIViewController {
     
         let emoti = HGEmoticonManager.shared
         
-        print(emoti.package)
+        print(emoti.package.last?.emoticons.first?.image)
+        print(emoti.package.last?.emoticons.first)
+    
     }
 
     override func didReceiveMemoryWarning() {

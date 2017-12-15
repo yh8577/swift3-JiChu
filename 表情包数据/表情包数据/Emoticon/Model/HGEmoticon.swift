@@ -24,6 +24,24 @@ class HGEmoticon: NSObject {
     // emoji 的十六进制编码
     var code: String?
     
+    /// 表情模型所在的目录
+    var directory: String?
+    
+    //  图片表情对应的图像
+    var image: UIImage? {
+        
+        guard let path = Bundle.main.path(forResource: "HMEmoticon.bundle", ofType: nil),
+              let bundle = Bundle(path: path),
+              let png = png,
+              let directory = directory
+        
+        else {
+            return nil
+        }
+        
+        return UIImage(named: "\(directory)/\(png)", in: bundle, compatibleWith: nil)
+    }
+    
     
     override var description: String {
         return yy_modelDescription()

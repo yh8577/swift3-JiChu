@@ -15,7 +15,9 @@ class HGEmoticonPackage: NSObject {
     // 表情包的分组名称
     var groupName: String?
     
-    lazy var emotions = [HGEmoticon]()
+    // 懒加载的表情模型空数组
+    // 使用懒加载可以避免后续的解包
+    lazy var emoticons = [HGEmoticon]()
     
     // 表情包目录, 从目录下加载 info.plist 可以创建表情模型数组
     var directory: String? {
@@ -31,14 +33,17 @@ class HGEmoticonPackage: NSObject {
                 return
             }
             
-          emotions += models
+            // 遍历 models 数组,设置每一个表情符号的目录
+            
+            for m in models {
+                m.directory = directory
+            }
+            
+            emoticons += models
             
         }
     }
     
-    // 懒加载的表情模型空数组
-    // 使用懒加载可以避免后续的解包
-    lazy var emoticons = [HGEmoticon]()
     
     override var description: String {
         return yy_modelDescription()

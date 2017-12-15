@@ -21,9 +21,7 @@ class HGEmoticonManager {
         
         loadPackages()
     }
-    
 }
-
 
 fileprivate extension HGEmoticonManager {
     
@@ -40,10 +38,5 @@ fileprivate extension HGEmoticonManager {
         }
         
         package += models
-        
-        
-        print(package)
     }
-    
-    
 }
