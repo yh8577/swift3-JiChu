@@ -76,7 +76,7 @@ extension HGEmoticonManager {
     
     //  将给定的字符串转换成属性文本
     func emoticonString(string: String, font: UIFont) -> NSAttributedString {
-        
+
         let attrString = NSMutableAttributedString(string: string)
         
         // 建立正则表达式,过滤所有的表情文字
