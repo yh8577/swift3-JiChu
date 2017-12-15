@@ -34,8 +34,11 @@ class HGLabel: UILabel {
         
         let range = NSRange(location: 0, length: textStorage.length)
         
+        layoutManager.drawBackground(forGlyphRange: range, at: CGPoint())
+        
         //Glyphs  字形
         layoutManager.drawGlyphs(forGlyphRange: range, at: CGPoint())
+        
         
     }
     
@@ -81,7 +84,14 @@ extension HGLabel {
             textStorage.setAttributedString(NSAttributedString(string: ""))
         }
         
-        print(urlRanges)
+        for r in urlRanges ?? [] {
+            
+            textStorage.addAttributes(
+                [
+                    NSForegroundColorAttributeName: UIColor.blue,
+                    NSBackgroundColorAttributeName: UIColor.lightGray
+                ], range: r)
+        }
     }
     
 }
