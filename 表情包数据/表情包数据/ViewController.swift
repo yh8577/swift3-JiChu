@@ -29,10 +29,49 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     
 
-        // 
-        
+        /*
+         注意这里需要倒序遍历
+         
+         必须使用倒序替换
+         **/
+        //
+        let str = "我[爱你]啊[笑哈哈]!"
+        label.attributedText = emoticonString(string: str)
 
     }
+    
+    //  将给定的字符串转换成属性文本
+    func emoticonString(string: String) -> NSAttributedString {
+        
+        let attrString = NSMutableAttributedString(string: string)
+        
+        // 建立正则表达式,过滤所有的表情文字
+        // [] () 都是正则表达式的关键字,如果要参与匹配,都需要转义
+        let pattern = "\\[.*?\\]"
+        
+        guard let regx = try? NSRegularExpression(pattern: pattern, options: []) else {
+            return attrString
+        }
+        
+        // 匹配所有项
+        let matches = regx.matches(in: string, options: [], range: NSRange(location: 0, length: attrString.length))
+        
+        // 遍历所有匹配结果
+        for m in matches.reversed() {
+            
+            let r = m.rangeAt(0)
+            let subStr = (attrString.string as NSString).substring(with: r)
+            
+            // 使用subStr 查找对应的符号
+            if let em = HGEmoticonManager.shared.findEmoticon(string: subStr) {
+                
+                attrString.replaceCharacters(in: r, with: em.imageText(font: label.font))
+            }
+        }
+        return attrString
+    }
+    
+    
     
     
     func demo() {
