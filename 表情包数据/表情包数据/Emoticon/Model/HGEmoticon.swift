@@ -42,6 +42,23 @@ class HGEmoticon: NSObject {
         return UIImage(named: "\(directory)/\(png)", in: bundle, compatibleWith: nil)
     }
     
+    func imageText(font: UIFont) -> NSAttributedString {
+        
+        // 判断图像是否存在
+        guard let image = image else {
+            return NSAttributedString(string: "")
+        }
+        
+        // 创建文本附件
+        let attachment = NSTextAttachment()
+        // 图片
+        attachment.image = image
+        // 文本高度
+        let height = font.lineHeight
+        attachment.bounds = CGRect(x: 0, y: -4, width: height, height: height)
+       
+        return NSAttributedString(attachment: attachment)
+    }
     
     override var description: String {
         return yy_modelDescription()

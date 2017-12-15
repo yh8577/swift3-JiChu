@@ -23,25 +23,32 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     
+
+        // 
+        
+
+    }
+    
+    
+    func demo() {
+        
         let emoti = HGEmoticonManager.shared
         
-//        print(emoti.package.last?.emoticons.first?.image)
-//        print(emoti.package.last?.emoticons.first)
+        //        print(emoti.package.last?.emoticons.first?.image)
+        //        print(emoti.package.last?.emoticons.first)
         
         
-        print(emoti.findEmoticon(string: "[笑哈哈]"))
+        //        print(emoti.findEmoticon(string: "[笑哈哈]"))
         
-
+        let em = emoti.findEmoticon(string: "[笑哈哈]")
+        
+        label.attributedText = em?.imageText(font: label.font)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
