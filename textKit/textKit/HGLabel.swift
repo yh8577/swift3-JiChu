@@ -80,6 +80,36 @@ extension HGLabel {
         } else {
             textStorage.setAttributedString(NSAttributedString(string: ""))
         }
+        
+        print(urlRanges)
     }
     
+}
+
+
+extension HGLabel {
+    
+    // 返回 textStorage 中的 URL range 数组
+    fileprivate var urlRanges: [NSRange]? {
+        
+        // 正则表达式
+        let pattern = "[a-zA-Z]*://[a-zA-Z0-9/\\.]*"
+        
+        guard let regx = try? NSRegularExpression(pattern: pattern, options: []) else {
+            return nil
+        }
+        
+        // 多个匹配
+        let matches = regx.matches(in: textStorage.string, options: [], range: NSRange(location: 0, length: textStorage.length))
+        
+        // 遍历数组,生成 ranges 数组
+        var ranges = [NSRange]()
+        
+        for m in matches {
+            ranges.append(m.rangeAt(0))
+            
+        }
+        
+        return ranges
+    }
 }
