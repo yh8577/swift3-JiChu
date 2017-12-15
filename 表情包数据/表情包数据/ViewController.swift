@@ -28,8 +28,14 @@ class ViewController: UIViewController {
     
         let emoti = HGEmoticonManager.shared
         
-        print(emoti.package.last?.emoticons.first?.image)
-        print(emoti.package.last?.emoticons.first)
+//        print(emoti.package.last?.emoticons.first?.image)
+//        print(emoti.package.last?.emoticons.first)
+        
+        
+        print(emoti.findEmoticon(string: "[爱你]"))
+        
+        
+        
     
     }
 

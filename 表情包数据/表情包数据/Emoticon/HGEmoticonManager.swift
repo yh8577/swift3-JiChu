@@ -23,6 +23,37 @@ class HGEmoticonManager {
     }
 }
 
+// MARK: -  表情符号处理
+extension HGEmoticonManager {
+    
+    
+    /// 根据 string 在所有的表情符号中查找对于的表情模型对象
+    ///
+    /// - Parameter string: 查找的条件字符串
+    /// - Returns: 如果查找到返回表情模型,如果没有找到返回 nil
+    func findEmoticon(string: String) -> HGEmoticon? {
+        
+        // 遍历表情包
+        // OC 中过滤数组使用[谓词]
+        // swift 中更简单
+        for p in package {
+                // 在表情数组中过滤 string
+            let result = p.emoticons.filter({ (em) -> Bool in
+                return em.chs == string
+            })
+            
+            // 判断结果数组的数量
+            if result.count == 1 {
+                return result[0]
+            }
+        }
+        
+        return nil
+    }
+    
+}
+
+// MARK: - 表情包数据处理
 fileprivate extension HGEmoticonManager {
     
     func loadPackages() {
