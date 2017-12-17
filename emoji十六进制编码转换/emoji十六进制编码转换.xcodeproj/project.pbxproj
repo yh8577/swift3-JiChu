@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A69F31E51FE6A25E0077ABD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69F31E41FE6A25E0077ABD4 /* AppDelegate.swift */; };
+		A69F31E71FE6A25E0077ABD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69F31E61FE6A25E0077ABD4 /* ViewController.swift */; };
+		A69F31EA1FE6A25E0077ABD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69F31E81FE6A25E0077ABD4 /* Main.storyboard */; };
+		A69F31EC1FE6A25E0077ABD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69F31EB1FE6A25E0077ABD4 /* Assets.xcassets */; };
+		A69F31EF1FE6A25E0077ABD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69F31ED1FE6A25E0077ABD4 /* LaunchScreen.storyboard */; };
+		A69F31FA1FE6A25E0077ABD4 /* emoji________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69F31F91FE6A25E0077ABD4 /* emoji________Tests.swift */; };
+		A69F32051FE6A25E0077ABD4 /* emoji________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69F32041FE6A25E0077ABD4 /* emoji________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A69F31F61FE6A25E0077ABD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A69F31D91FE6A25E0077ABD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A69F31E01FE6A25E0077ABD4;
+			remoteInfo = "emoji十六进制编码转换";
+		};
+		A69F32011FE6A25E0077ABD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A69F31D91FE6A25E0077ABD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A69F31E01FE6A25E0077ABD4;
+			remoteInfo = "emoji十六进制编码转换";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A69F31E11FE6A25E0077ABD4 /* emoji十六进制编码转换.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "emoji十六进制编码转换.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69F31E41FE6A25E0077ABD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A69F31E61FE6A25E0077ABD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A69F31E91FE6A25E0077ABD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A69F31EB1FE6A25E0077ABD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A69F31EE1FE6A25E0077ABD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A69F31F01FE6A25E0077ABD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A69F31F51FE6A25E0077ABD4 /* emoji十六进制编码转换Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "emoji十六进制编码转换Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69F31F91FE6A25E0077ABD4 /* emoji________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "emoji________Tests.swift"; sourceTree = "<group>"; };
+		A69F31FB1FE6A25E0077ABD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A69F32001FE6A25E0077ABD4 /* emoji十六进制编码转换UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "emoji十六进制编码转换UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69F32041FE6A25E0077ABD4 /* emoji________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "emoji________UITests.swift"; sourceTree = "<group>"; };
+		A69F32061FE6A25E0077ABD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A69F31DE1FE6A25E0077ABD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69F31F21FE6A25E0077ABD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69F31FD1FE6A25E0077ABD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A69F31D81FE6A25E0077ABD4 = {
+			isa = PBXGroup;
+			children = (
+				A69F31E31FE6A25E0077ABD4 /* emoji十六进制编码转换 */,
+				A69F31F81FE6A25E0077ABD4 /* emoji十六进制编码转换Tests */,
+				A69F32031FE6A25E0077ABD4 /* emoji十六进制编码转换UITests */,
+				A69F31E21FE6A25E0077ABD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A69F31E21FE6A25E0077ABD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A69F31E11FE6A25E0077ABD4 /* emoji十六进制编码转换.app */,
+				A69F31F51FE6A25E0077ABD4 /* emoji十六进制编码转换Tests.xctest */,
+				A69F32001FE6A25E0077ABD4 /* emoji十六进制编码转换UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A69F31E31FE6A25E0077ABD4 /* emoji十六进制编码转换 */ = {
+			isa = PBXGroup;
+			children = (
+				A69F31E41FE6A25E0077ABD4 /* AppDelegate.swift */,
+				A69F31E61FE6A25E0077ABD4 /* ViewController.swift */,
+				A69F31E81FE6A25E0077ABD4 /* Main.storyboard */,
+				A69F31EB1FE6A25E0077ABD4 /* Assets.xcassets */,
+				A69F31ED1FE6A25E0077ABD4 /* LaunchScreen.storyboard */,
+				A69F31F01FE6A25E0077ABD4 /* Info.plist */,
+			);
+			path = "emoji十六进制编码转换";
+			sourceTree = "<group>";
+		};
+		A69F31F81FE6A25E0077ABD4 /* emoji十六进制编码转换Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A69F31F91FE6A25E0077ABD4 /* emoji________Tests.swift */,
+				A69F31FB1FE6A25E0077ABD4 /* Info.plist */,
+			);
+			path = "emoji十六进制编码转换Tests";
+			sourceTree = "<group>";
+		};
+		A69F32031FE6A25E0077ABD4 /* emoji十六进制编码转换UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A69F32041FE6A25E0077ABD4 /* emoji________UITests.swift */,
+				A69F32061FE6A25E0077ABD4 /* Info.plist */,
+			);
+			path = "emoji十六进制编码转换UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A69F31E01FE6A25E0077ABD4 /* emoji十六进制编码转换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69F32091FE6A25E0077ABD4 /* Build configuration list for PBXNativeTarget "emoji十六进制编码转换" */;
+			buildPhases = (
+				A69F31DD1FE6A25E0077ABD4 /* Sources */,
+				A69F31DE1FE6A25E0077ABD4 /* Frameworks */,
+				A69F31DF1FE6A25E0077ABD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "emoji十六进制编码转换";
+			productName = "emoji十六进制编码转换";
+			productReference = A69F31E11FE6A25E0077ABD4 /* emoji十六进制编码转换.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A69F31F41FE6A25E0077ABD4 /* emoji十六进制编码转换Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69F320C1FE6A25E0077ABD4 /* Build configuration list for PBXNativeTarget "emoji十六进制编码转换Tests" */;
+			buildPhases = (
+				A69F31F11FE6A25E0077ABD4 /* Sources */,
+				A69F31F21FE6A25E0077ABD4 /* Frameworks */,
+				A69F31F31FE6A25E0077ABD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A69F31F71FE6A25E0077ABD4 /* PBXTargetDependency */,
+			);
+			name = "emoji十六进制编码转换Tests";
+			productName = "emoji十六进制编码转换Tests";
+			productReference = A69F31F51FE6A25E0077ABD4 /* emoji十六进制编码转换Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A69F31FF1FE6A25E0077ABD4 /* emoji十六进制编码转换UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69F320F1FE6A25E0077ABD4 /* Build configuration list for PBXNativeTarget "emoji十六进制编码转换UITests" */;
+			buildPhases = (
+				A69F31FC1FE6A25E0077ABD4 /* Sources */,
+				A69F31FD1FE6A25E0077ABD4 /* Frameworks */,
+				A69F31FE1FE6A25E0077ABD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A69F32021FE6A25E0077ABD4 /* PBXTargetDependency */,
+			);
+			name = "emoji十六进制编码转换UITests";
+			productName = "emoji十六进制编码转换UITests";
+			productReference = A69F32001FE6A25E0077ABD4 /* emoji十六进制编码转换UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A69F31D91FE6A25E0077ABD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jyh;
+				TargetAttributes = {
+					A69F31E01FE6A25E0077ABD4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZML32S4D5M;
+						ProvisioningStyle = Automatic;
+					};
+					A69F31F41FE6A25E0077ABD4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZML32S4D5M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A69F31E01FE6A25E0077ABD4;
+					};
+					A69F31FF1FE6A25E0077ABD4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZML32S4D5M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A69F31E01FE6A25E0077ABD4;
+					};
+				};
+			};
+			buildConfigurationList = A69F31DC1FE6A25E0077ABD4 /* Build configuration list for PBXProject "emoji十六进制编码转换" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A69F31D81FE6A25E0077ABD4;
+			productRefGroup = A69F31E21FE6A25E0077ABD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A69F31E01FE6A25E0077ABD4 /* emoji十六进制编码转换 */,
+				A69F31F41FE6A25E0077ABD4 /* emoji十六进制编码转换Tests */,
+				A69F31FF1FE6A25E0077ABD4 /* emoji十六进制编码转换UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A69F31DF1FE6A25E0077ABD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69F31EF1FE6A25E0077ABD4 /* LaunchScreen.storyboard in Resources */,
+				A69F31EC1FE6A25E0077ABD4 /* Assets.xcassets in Resources */,
+				A69F31EA1FE6A25E0077ABD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69F31F31FE6A25E0077ABD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69F31FE1FE6A25E0077ABD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A69F31DD1FE6A25E0077ABD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69F31E71FE6A25E0077ABD4 /* ViewController.swift in Sources */,
+				A69F31E51FE6A25E0077ABD4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69F31F11FE6A25E0077ABD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69F31FA1FE6A25E0077ABD4 /* emoji________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69F31FC1FE6A25E0077ABD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69F32051FE6A25E0077ABD4 /* emoji________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A69F31F71FE6A25E0077ABD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A69F31E01FE6A25E0077ABD4 /* emoji十六进制编码转换 */;
+			targetProxy = A69F31F61FE6A25E0077ABD4 /* PBXContainerItemProxy */;
+		};
+		A69F32021FE6A25E0077ABD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A69F31E01FE6A25E0077ABD4 /* emoji十六进制编码转换 */;
+			targetProxy = A69F32011FE6A25E0077ABD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A69F31E81FE6A25E0077ABD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69F31E91FE6A25E0077ABD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A69F31ED1FE6A25E0077ABD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69F31EE1FE6A25E0077ABD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A69F32071FE6A25E0077ABD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A69F32081FE6A25E0077ABD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A69F320A1FE6A25E0077ABD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "emoji十六进制编码转换/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.emoji--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A69F320B1FE6A25E0077ABD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "emoji十六进制编码转换/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.emoji--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A69F320D1FE6A25E0077ABD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "emoji十六进制编码转换Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.emoji--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emoji十六进制编码转换.app/emoji十六进制编码转换";
+			};
+			name = Debug;
+		};
+		A69F320E1FE6A25E0077ABD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "emoji十六进制编码转换Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.emoji--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emoji十六进制编码转换.app/emoji十六进制编码转换";
+			};
+			name = Release;
+		};
+		A69F32101FE6A25E0077ABD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "emoji十六进制编码转换UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.emoji--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "emoji十六进制编码转换";
+			};
+			name = Debug;
+		};
+		A69F32111FE6A25E0077ABD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "emoji十六进制编码转换UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.emoji--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "emoji十六进制编码转换";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A69F31DC1FE6A25E0077ABD4 /* Build configuration list for PBXProject "emoji十六进制编码转换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69F32071FE6A25E0077ABD4 /* Debug */,
+				A69F32081FE6A25E0077ABD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69F32091FE6A25E0077ABD4 /* Build configuration list for PBXNativeTarget "emoji十六进制编码转换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69F320A1FE6A25E0077ABD4 /* Debug */,
+				A69F320B1FE6A25E0077ABD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A69F320C1FE6A25E0077ABD4 /* Build configuration list for PBXNativeTarget "emoji十六进制编码转换Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69F320D1FE6A25E0077ABD4 /* Debug */,
+				A69F320E1FE6A25E0077ABD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A69F320F1FE6A25E0077ABD4 /* Build configuration list for PBXNativeTarget "emoji十六进制编码转换UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69F32101FE6A25E0077ABD4 /* Debug */,
+				A69F32111FE6A25E0077ABD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A69F31D91FE6A25E0077ABD4 /* Project object */;
+}
